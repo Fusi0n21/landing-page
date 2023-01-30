@@ -20,4 +20,16 @@ ul{
 }
 .top{
     display: flex;
+    justify-content: center;
+}
+.random{
+    display: flex;
+}
+.quote-box{
+    display: flex;
+    padding: 50px;
+}
+.sign-up-box{
+    display: flex;
+    justify-content: center;
 }
