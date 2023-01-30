@@ -1,0 +1,23 @@
+img{
+    width: 200px;
+    height: 200px;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.textbox{
+    display: flex;
+}
+.top{
+    display: flex;
+}
