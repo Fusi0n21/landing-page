@@ -6,10 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="all">
     <div class="header">
-        <div>Header Logo</div>
+        <div style="font-size: 24px;font-weight: 400;">Header Logo</div>
         <ul>
             <li>header link one</li>
             <li>header link two</li>
@@ -18,29 +22,29 @@
     </div>
     <div class="top">
         <div class="text-box">
-            <div style="font-size:30px">This website is awesome</div>
-            <div>This website has some subtext that goes here under the main title. It's smaller font and the color is lower contrast</div>
+            <div style="font-size:48px;font-weight: 800;color: #F9FAF8;">This website is awesome</div>
+            <div style="font-size: 18px;color: #E5E7EB;margin-bottom: 10px;">This website has some subtext that goes here under the main title. It's smaller font and the color is lower contrast</div>
             <button class="signup">Sign up</button>
         </div>
-        <img src="img/main.jpg" alt="top image">
+        <img class="mainimg" src="img/main.jpg" alt="top image" width="400" height="200">
     </div>
-    <div>Some random information</div>
+    <div style=" font-size: 36px; font-weight: 800;color: #1F2937; display: flex;justify-content: center;align-items: center;padding: 20px;">Some random information</div>
     <div class="random">
         <div class="card">
-            <img src="/img/first.jpg" alt="First image">
-            <div>this is some subtext under an illustration or image</div>
+            <img src="/img/first.jpg" alt="First image" width="150" height="150">
+            <div class="random-text">this is some subtext under an illustration or image</div>
         </div>
         <div class="card">
-            <img src="img/second.jpg" alt="Second image">
-            <div>this is some subtext under an illustration or image</div>
+            <img src="img/second.jpg" alt="Second image" width="150" height="150">
+            <div class="random-text">this is some subtext under an illustration or image</div>
         </div>
         <div class="card">
-            <img src="img/third.jpg" alt="Third image">
-            <div>this is some subtext under an illustration or image</div>
+            <img src="img/third.jpg" alt="Third image" width="150" height="150">
+            <div class="random-text">this is some subtext under an illustration or image</div>
         </div>
         <div class="card">
-            <img src="img/fourth.jpg" alt="Fourth image">
-            <div>this is some subtext under an illustration or image</div>
+            <img src="img/fourth.jpg" alt="Fourth image" width="150" height="150">
+            <div class="random-text">this is some subtext under an illustration or image</div>
         </div>
     </div>
     <div class="quote-box">
@@ -48,13 +52,13 @@
         <div class="quote-author">-Thor, God of Thunder</div>
     </div>
     <div class="sign-up-box">
-        <div class="text-box">
+        <div class="text-box" style="color:white">
             <div>Call to action!It's time!</div>
             <div>Sign up for our product by clicking that button right over there!</div>
         </div>
-        <button>Sign up</button>
+        <button style="border: 2px solid white;">Sign up</button>
     </div>
-    <div style="display: flex;justify-content: center;align-items: center;padding: 20px;">Copyright @ The Odin Project 2021</div>
-    
+    <div style="background-color: #1F2937;color: white; display: flex;justify-content: center;align-items: center;padding: 20px;">Copyright @ The Odin Project 2021</div>
+</div>
 </body>
 </html>
